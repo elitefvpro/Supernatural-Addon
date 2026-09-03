@@ -4,7 +4,8 @@
     "description": "Supernatural Add-on - Behavior Pack | Minecraft Bedrock 1.20.80",
     "name": "Supernatural - Behavior Pack",
     "uuid": "a1b2c3d4-e5f6-47g8-h9i0-j1k2l3m4n5o6",
-    "version": [1, 0, 0]
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 80]
   },
   "modules": [
     {
@@ -24,8 +25,12 @@
   ],
   "dependencies": [
     {
-      "uuid": "d4e5f6g7-h8i9-40j0-k1l2-m3n4o5p6q7r8",
-      "version": [1, 0, 0]
+      "module_name": "@minecraft/server",
+      "version": "1.10.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.10.0"
     }
   ],
   "capabilities": [
