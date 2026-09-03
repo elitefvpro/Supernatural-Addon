@@ -1,0 +1,34 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Supernatural Add-on - Behavior Pack | Minecraft Bedrock 1.20.80",
+    "name": "Supernatural - Behavior Pack",
+    "uuid": "a1b2c3d4-e5f6-47g8-h9i0-j1k2l3m4n5o6",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "description": "Behavior Pack Module",
+      "type": "behavior",
+      "uuid": "b2c3d4e5-f6g7-48h9-i0j1-k2l3m4n5o6p7",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "Script Module - Supernatural Systems",
+      "type": "script",
+      "language": "JavaScript",
+      "uuid": "c3d4e5f6-g7h8-49i0-j1k2-l3m4n5o6p7q8",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "d4e5f6g7-h8i9-40j0-k1l2-m3n4o5p6q7r8",
+      "version": [1, 0, 0]
+    }
+  ],
+  "capabilities": [
+    "script_eval"
+  ]
+}
