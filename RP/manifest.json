@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Supernatural Add-on - Resource Pack | Minecraft Bedrock 1.20.80",
+    "name": "Supernatural - Resource Pack",
+    "uuid": "d4e5f6g7-h8i9-40j0-k1l2-m3n4o5p6q7r8",
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "description": "Resource Pack Module",
+      "type": "resources",
+      "uuid": "e5f6g7h8-i9j0-41k1-l2m3-n4o5p6q7r8s9",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a1b2c3d4-e5f6-47g8-h9i0-j1k2l3m4n5o6",
+      "version": [1, 0, 0]
+    }
+  ]
+}
